@@ -1,3 +1,12 @@
+@media (max-width: 400px) {
+  h1,
+  h2 {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
 /*
 html5doctor.com Reset Stylesheet
 v1.6.1
@@ -162,4 +171,22 @@ html {
 }
 nav {
   border: 1px solid red;
+  background-color: greenyellow;
+}
+nav a {
+  text-decoration: none;
+}
+.home-page {
+  border: 2px solid red;
+  color: #198;
+}
+.home-page a {
+  text-decoration: none;
+}
+.home-page div {
+  border: 1px solid;
+  height: 40px;
+}
+.home-page section {
+  border: 1px dashed gray;
 }
