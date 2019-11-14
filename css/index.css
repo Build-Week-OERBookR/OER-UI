@@ -2,7 +2,7 @@ html {
   background-color: #EFEFEF;
 }
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 body .container {
   width: 80%;
@@ -14,7 +14,6 @@ nav {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  border: 1px solid;
   width: 50%;
 }
 nav a {
@@ -25,6 +24,7 @@ nav a {
   width: 150px;
   flex-direction: column;
   text-decoration: none;
+  font-family: 'Lato', sans-serif;
 }
 nav ul {
   list-style: none;
@@ -37,6 +37,7 @@ nav li {
 }
 footer {
   background-color: #7EAFBA;
+  font-family: 'Secular One', sans-serif;
   text-align: center;
   padding-bottom: 30px;
 }
@@ -45,12 +46,13 @@ header {
   padding-top: 30px;
   border-bottom: 5px solid #e84916;
   border-top: 5px solid #e84916;
+  font-family: 'Secular One', sans-serif;
   display: flex;
   justify-content: center;
   text-align: center;
 }
 header #branding {
-  border: 1px solid;
+  border-right: 1px solid;
   width: 50%;
   align-content: center;
 }
@@ -69,8 +71,10 @@ header a:hover {
   min-height: 400px;
   background: url("../img/banter-snaps-9o8YdYGTT64-unsplash.jpg") no-repeat 0;
 }
-#showcase h1 {
+#showcase .container {
+  background: #d7d7d7;
+  opacity: 80%;
   color: #e84916;
-  background: #D8D1AC;
-  background-position-x: left;
+  border-radius: 2px;
+  text-align: center;
 }

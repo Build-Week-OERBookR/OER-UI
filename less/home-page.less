@@ -4,6 +4,7 @@ header {
     padding-top: 30px;
     border-bottom: 5px solid @hover-color;
     border-top: 5px solid @hover-color;
+    font-family: @font-header;
 
     //flex-work
     display: flex;
@@ -13,7 +14,7 @@ header {
     // border: 2px dashed;
 
     #branding {
-        border: 1px solid;
+        border-right: 1px solid;
         width: 50%;
         align-content: center;
     }
@@ -38,14 +39,12 @@ header a:hover {
     min-height: 400px;
     background:url("../img/banter-snaps-9o8YdYGTT64-unsplash.jpg") no-repeat 0;
 
-    h1 {
+    .container {
+        background: @fnt-color;
+        opacity: 80%;
         color: @hover-color;
-        background: @font-links;
-        background-position-x: left;
-    }
-
-    p {
+        border-radius: 2px;
+        text-align: center;
         
-        // background: black;
     }
 }
