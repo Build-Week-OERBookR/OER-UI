@@ -1,7 +1,35 @@
+// Header
 header {
     background-color: @header-color;
+    padding-top: 30px;
+    border-bottom: 5px solid @hover-color;
+    border-top: 5px solid @hover-color;
+
+    //flex-work
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+    // border: 2px dashed;
+
+    #branding {
+        border: 1px solid;
+        width: 50%;
+        align-content: center;
+    }
+
+    .container {
+        display: flex;
+        // border: 2px solid;
+        justify-content: center;
+    }
 }
 
-footer {
-    background-color: @header-color;
+header .highlight, header .current a {
+    color: @hover-color;
+}
+
+header a:hover {
+    color: @hover-color;
+
 }
