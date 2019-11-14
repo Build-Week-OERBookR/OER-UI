@@ -65,3 +65,7 @@ header .current a {
 header a:hover {
   color: #e84916;
 }
+#showcase {
+  min-height: 400px;
+  background: url("../img/banter-snaps-9o8YdYGTT64-unsplash.jpg") no-repeat;
+}
