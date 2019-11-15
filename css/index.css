@@ -10,14 +10,44 @@ body .container {
   overflow: hidden;
   color: #D8D1AC;
 }
+body .container button {
+  color: #e84916;
+  opacity: 70%;
+  font-family: 'Lato', sans-serif;
+  border-radius: 5px;
+  font-weight: 400;
+  background-color: transparent;
+  padding: 6px 12px;
+}
 nav {
-  border: 1px solid;
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  margin: 30px;
+}
+@media (max-width: 500px) {
+  nav {
+    width: 90%;
+    justify-content: space-evenly;
+    margin: 0 auto;
+  }
+  nav #social {
+    background: #e84916;
+    width: 100%;
+  }
+  nav ul {
+    justify-content: center;
+    padding: 0;
+  }
 }
 nav a {
   color: #D7d7d7;
-  border: 1px dashed;
   text-decoration: none;
   font-family: 'Lato', sans-serif;
+  justify-content: center;
+}
+nav p {
+  color: #474f60;
 }
 nav ul {
   list-style: none;
@@ -31,34 +61,62 @@ nav li {
 }
 nav #social {
   display: flex;
-  justify-content: center;
+  border-bottom: 1px solid;
+  justify-content: space-evenly;
+  padding-bottom: 2rem;
 }
 footer {
   background-color: #7EAFBA;
   font-family: 'Secular One', sans-serif;
+  color: #474f60;
   text-align: center;
   padding-bottom: 30px;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+footer a:hover {
+  color: #e84916;
 }
 footer a {
-  border: 1px solid;
+  color: #D8D1AC;
+}
+footer .social {
+  align-items: center;
+  width: 30%;
+  display: flex;
+  justify-content: space-evenly;
 }
 header {
   background-color: #7EAFBA;
-  padding-top: 30px;
+  padding-top: 1px;
   border-bottom: 5px solid #e84916;
   border-top: 5px solid #e84916;
   font-family: 'Secular One', sans-serif;
   margin: 0 auto;
   text-align: center;
+  font-size: 20px;
 }
 header #branding {
   border-right: 1px solid;
+  width: 40%;
   text-align: center;
   margin: auto;
 }
 header .container {
   display: flex;
   justify-content: center;
+}
+@media (max-width: 500px) {
+  header .container {
+    flex-direction: column;
+  }
+  header .container #branding {
+    width: 100%;
+    border-bottom: 5px solid;
+  }
 }
 header .highlight,
 header .current a {
@@ -92,4 +150,27 @@ header a:hover {
   #bottom .container {
     flex-direction: column;
   }
+}
+#divider {
+  text-align: center;
+  color: #e84916;
+  font-family: 'Lato', sans-serif;
+}
+#divider .container {
+  background-color: #D8D1AC;
+}
+#media {
+  border-top: 1px dashed;
+  margin: 0 auto;
+  padding-bottom: 2rem;
+}
+#media .container {
+  display: flex;
+  text-align: center;
+}
+#media .container .img {
+  margin: 0 auto;
+}
+#media .container .img img {
+  width: 93.33%;
 }

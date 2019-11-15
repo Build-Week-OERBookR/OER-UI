@@ -1,23 +1,23 @@
 // Header
 header {
     background-color: @header-color;
-    padding-top: 30px;
+    padding-top: 1px;
     border-bottom: 5px solid @hover-color;
     border-top: 5px solid @hover-color;
     font-family: @font-header;
     margin: 0 auto;
-
-    //flex-work
-    // display: flex;
-    // justify-content: space-evenly;
     text-align: center;
+    font-size: 20px;
     
     // border: 2px dashed;
 
+    
+
     #branding {
         border-right: 1px solid;
-        // width: 40%;
-        // align-content: center;
+        
+        width: 40%;
+        
         text-align: center;
         margin: auto;
     }
@@ -26,6 +26,21 @@ header {
         display: flex;
         // border: 2px solid;
         justify-content: center;
+
+        @media (max-width: 500px) {
+           
+            flex-direction: column;
+           
+           
+
+            #branding {
+                width: 100%;
+                border-bottom: 5px solid;
+            }
+
+
+    
+        }
     }
 }
 
@@ -36,7 +51,7 @@ header .highlight, header .current a {
 header a:hover {
     color: @hover-color;
 
-}
+} 
 
 #showcase {
     min-height: 400px;
@@ -48,9 +63,11 @@ header a:hover {
         color: @hover-color;
         border-radius: 2px;
         text-align: center;
-        // text-shadow: 10px, 10px 16px darkblue;
+        
         
     }
+
+    
 }
 
 #news {
@@ -74,4 +91,42 @@ header a:hover {
 
     }
 
+}
+
+#divider {
+    text-align: center;
+    color: @hover-color;
+    font-family: @font-sub;
+
+    .container {
+        background-color: @fnt-color;
+    }
+}
+
+#media {
+    border-top: 1px dashed;
+    margin: 0 auto;
+    padding-bottom: 2rem;
+
+    .container {
+        // border: 5px solid;
+        display: flex;
+        // flex-direction: column;
+        text-align: center;
+
+
+        .img {
+            margin: 0 auto;
+    
+            img {
+                width: 93.33%;
+    
+            }
+           
+        }
+
+
+    }
+
+    
 }
