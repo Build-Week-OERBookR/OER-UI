@@ -5,6 +5,7 @@ header {
     border-bottom: 5px solid @hover-color;
     border-top: 5px solid @hover-color;
     font-family: @font-header;
+    margin: 0 auto;
 
     //flex-work
     display: flex;
@@ -15,8 +16,9 @@ header {
 
     #branding {
         border-right: 1px solid;
-        width: 50%;
+        width: 40%;
         align-content: center;
+        // margin: auto;
     }
 
     .container {
@@ -45,6 +47,30 @@ header a:hover {
         color: @hover-color;
         border-radius: 2px;
         text-align: center;
+        // text-shadow: 10px, 10px 16px darkblue;
         
     }
+}
+
+#news {
+    .container {
+        color: @font-bottom;
+        text-align: center;
+    }
+}
+
+#bottom {
+
+    .container {
+        background: @background-main;
+        color: @font-bottom;
+        display: flex;
+        text-align: center;
+
+        @media (max-width: 500px) {
+            flex-direction: column;
+        }
+
+    }
+
 }
