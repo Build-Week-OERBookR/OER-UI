@@ -1,0 +1,76 @@
+// Header
+header {
+    background-color: @header-color;
+    padding-top: 30px;
+    border-bottom: 5px solid @hover-color;
+    border-top: 5px solid @hover-color;
+    font-family: @font-header;
+    margin: 0 auto;
+
+    //flex-work
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+    // border: 2px dashed;
+
+    #branding {
+        border-right: 1px solid;
+        width: 40%;
+        align-content: center;
+        // margin: auto;
+    }
+
+    .container {
+        display: flex;
+        // border: 2px solid;
+        justify-content: center;
+    }
+}
+
+header .highlight, header .current a {
+    color: @hover-color;
+}
+
+header a:hover {
+    color: @hover-color;
+
+}
+
+#showcase {
+    min-height: 400px;
+    background:url("../img/banter-snaps-9o8YdYGTT64-unsplash.jpg") no-repeat 0;
+
+    .container {
+        background: @fnt-color;
+        opacity: 80%;
+        color: @hover-color;
+        border-radius: 2px;
+        text-align: center;
+        // text-shadow: 10px, 10px 16px darkblue;
+        
+    }
+}
+
+#news {
+    .container {
+        color: @font-bottom;
+        text-align: center;
+    }
+}
+
+#bottom {
+
+    .container {
+        background: @background-main;
+        color: @font-bottom;
+        display: flex;
+        text-align: center;
+
+        @media (max-width: 500px) {
+            flex-direction: column;
+        }
+
+    }
+
+}

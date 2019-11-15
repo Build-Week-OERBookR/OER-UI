@@ -1,165 +1,102 @@
-/*
-html5doctor.com Reset Stylesheet
-v1.6.1
-Last Updated: 2010-09-17
-Author: Richard Clark - http://richclarkdesign.com
-Twitter: @rich_clark
-*/
-html,
-body,
-div,
-span,
-object,
-iframe,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-pre,
-abbr,
-address,
-cite,
-code,
-del,
-dfn,
-em,
-img,
-ins,
-kbd,
-q,
-samp,
-small,
-strong,
-sub,
-sup,
-var,
-b,
-i,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td,
-article,
-aside,
-canvas,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-menu,
-nav,
-section,
-summary,
-time,
-mark,
-audio,
-video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  outline: 0;
-  font-size: 100%;
-  vertical-align: baseline;
-  background: transparent;
+html {
+  background-color: #EFEFEF;
 }
 body {
-  line-height: 1;
+  font-family: 'Montserrat', sans-serif;
 }
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-menu,
-nav,
-section {
-  display: block;
+body .container {
+  width: 100%;
+  margin: auto;
+  overflow: hidden;
+  color: #D8D1AC;
+}
+nav {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+nav a {
+  color: #D7d7d7;
+  display: flex;
+  justify-content: flex-end;
+  width: 150px;
+  flex-direction: column;
+  text-decoration: none;
+  font-family: 'Lato', sans-serif;
 }
 nav ul {
   list-style: none;
+  display: flex;
+  justify-content: space-evenly;
 }
-blockquote,
-q {
-  quotes: none;
+nav li {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
-blockquote:before,
-blockquote:after,
-q:before,
-q:after {
-  content: '';
-  content: none;
+nav #social {
+  display: flex;
+  justify-content: center;
 }
-a {
-  margin: 0;
-  padding: 0;
-  font-size: 100%;
-  vertical-align: baseline;
-  background: transparent;
+footer {
+  background-color: #7EAFBA;
+  font-family: 'Secular One', sans-serif;
+  text-align: center;
+  padding-bottom: 30px;
 }
-/* change colours to suit your needs */
-ins {
-  background-color: #ff9;
-  color: #000;
-  text-decoration: none;
+footer a {
+  border: 1px solid;
 }
-/* change colours to suit your needs */
-mark {
-  background-color: #ff9;
-  color: #000;
-  font-style: italic;
-  font-weight: bold;
+header {
+  background-color: #7EAFBA;
+  padding-top: 30px;
+  border-bottom: 5px solid #e84916;
+  border-top: 5px solid #e84916;
+  font-family: 'Secular One', sans-serif;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }
-del {
-  text-decoration: line-through;
+header #branding {
+  border-right: 1px solid;
+  width: 40%;
+  align-content: center;
 }
-abbr[title],
-dfn[title] {
-  border-bottom: 1px dotted;
-  cursor: help;
+header .container {
+  display: flex;
+  justify-content: center;
 }
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
+header .highlight,
+header .current a {
+  color: #e84916;
 }
-/* change border colour to suit your needs */
-hr {
-  display: block;
-  height: 1px;
-  border: 0;
-  border-top: 1px solid #cccccc;
-  margin: 1em 0;
-  padding: 0;
+header a:hover {
+  color: #e84916;
 }
-input,
-select {
-  vertical-align: middle;
+#showcase {
+  min-height: 400px;
+  background: url("../img/banter-snaps-9o8YdYGTT64-unsplash.jpg") no-repeat 0;
 }
-html {
-  background-color: #1222;
+#showcase .container {
+  background: #D8D1AC;
+  opacity: 80%;
+  color: #e84916;
+  border-radius: 2px;
+  text-align: center;
 }
-nav {
-  border: 1px solid red;
+#news .container {
+  color: #474f60;
+  text-align: center;
+}
+#bottom .container {
+  background: #EFEFEF;
+  color: #474f60;
+  display: flex;
+  text-align: center;
+}
+@media (max-width: 500px) {
+  #bottom .container {
+    flex-direction: column;
+  }
 }
