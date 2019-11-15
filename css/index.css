@@ -11,16 +11,11 @@ body .container {
   color: #D8D1AC;
 }
 nav {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
+  border: 1px solid;
 }
 nav a {
   color: #D7d7d7;
-  display: flex;
-  justify-content: flex-end;
-  width: 150px;
-  flex-direction: column;
+  border: 1px dashed;
   text-decoration: none;
   font-family: 'Lato', sans-serif;
 }
@@ -54,14 +49,12 @@ header {
   border-top: 5px solid #e84916;
   font-family: 'Secular One', sans-serif;
   margin: 0 auto;
-  display: flex;
-  justify-content: center;
   text-align: center;
 }
 header #branding {
   border-right: 1px solid;
-  width: 40%;
-  align-content: center;
+  text-align: center;
+  margin: auto;
 }
 header .container {
   display: flex;
