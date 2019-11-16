@@ -71,6 +71,11 @@ nav #social i.fab.fa-twitter:hover {
 nav #social i.fab.fa-facebook:hover {
   color: #1877f2;
 }
+nav #social i.fab.fa-instagram:hover {
+  border-color: #b900b4;
+  color: #f50000;
+  z-index: 5;
+}
 footer {
   background-color: #7EAFBA;
   font-family: 'Secular One', sans-serif;
@@ -94,6 +99,16 @@ footer .social {
   width: 30%;
   display: flex;
   justify-content: space-evenly;
+}
+footer .social i.fab.fa-twitter:hover {
+  color: #1da1f2;
+}
+footer .social i.fab.fa-facebook:hover {
+  color: #1877f2;
+}
+footer .social i.fab.fa-instagram:hover {
+  border-color: #b900b4;
+  color: #f50000;
 }
 header {
   background-color: #7EAFBA;
