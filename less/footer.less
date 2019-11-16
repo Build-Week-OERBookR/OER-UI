@@ -1,18 +1,35 @@
 footer {
     background-color: @header-color;
     font-family: @font-header;
+    color: @font-bottom;
     // margin: auto;
     // width: 80%;
     text-align: center;
     padding-bottom: 30px;
+    font-size: 20px;
+
+    // mixin
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    a:hover {
+        color: @hover-color;
+        
+    }
 
     a {
-        // display: flex;
-        // flex-direction: column;
-        // align-content: flex-end;
-        border: 1px solid;
-        // float: right;
+        color: @fnt-color;
+    }
 
+    .social {
 
+        // mixin
+        align-items: center;
+        width: 30%;
+        display: flex;
+        justify-content: space-evenly;
+        
     }
 }
