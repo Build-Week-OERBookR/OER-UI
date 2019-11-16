@@ -16,6 +16,7 @@ nav {
         #social {
             background: transparent;
             width: 100%;
+
         }
 
         ul {
@@ -57,11 +58,20 @@ nav {
 
     #social {
         display: flex;
+        justify-content: space-evenly;
        
+        padding-bottom: 2rem;
         border-bottom: 1px solid;
         
-        justify-content: space-evenly;
-        padding-bottom: 2rem;
+        i.fab.fa-twitter:hover {
+            color: @twitter-color;
+        }
+
+        i.fab.fa-facebook:hover {
+            color: @facebook-color;
+        }
+
+        
     }
 }
 

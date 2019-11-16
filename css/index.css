@@ -61,9 +61,15 @@ nav li {
 }
 nav #social {
   display: flex;
-  border-bottom: 1px solid;
   justify-content: space-evenly;
   padding-bottom: 2rem;
+  border-bottom: 1px solid;
+}
+nav #social i.fab.fa-twitter:hover {
+  color: #1da1f2;
+}
+nav #social i.fab.fa-facebook:hover {
+  color: #1877f2;
 }
 footer {
   background-color: #7EAFBA;
