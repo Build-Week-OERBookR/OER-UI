@@ -16,6 +16,7 @@ nav {
         #social {
             background: transparent;
             width: 100%;
+
         }
 
         ul {
@@ -49,7 +50,7 @@ nav {
     }
 
     li {
-        // display: flex;
+        
         flex-direction: row;
         justify-content: center;
         align-items: center;
@@ -57,12 +58,28 @@ nav {
 
     #social {
         display: flex;
+        justify-content: space-evenly;
        
+        padding-bottom: 2rem;
         border-bottom: 1px solid;
         
-        justify-content: space-evenly;
-        padding-bottom: 2rem;
-        // font-size: 30px;
+        i.fab.fa-twitter:hover {
+            color: @twitter-color;
+        }
+
+        i.fab.fa-facebook:hover {
+            color: @facebook-color;
+        }
+
+        i.fab.fa-instagram:hover {
+            border-color: @instagram-color;
+            color: @insta-gram;
+            // transition-delay: 0.5s;
+            z-index: 5;
+
+        }
+
+
     }
 }
 
