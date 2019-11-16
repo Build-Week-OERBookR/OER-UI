@@ -85,6 +85,10 @@ header a:hover {
         display: flex;
         text-align: center;
 
+        .fas {
+            color: @header-color;
+        }
+
         @media (max-width: 500px) {
             flex-direction: column;
         }
@@ -100,11 +104,12 @@ header a:hover {
 
     .container {
         background-color: @fnt-color;
+        color: @hover-color;
     }
 }
 
 #media {
-    border-top: 1px dashed;
+    border-top: 5px solid @hover-color;
     margin: 0 auto;
     padding-bottom: 2rem;
 

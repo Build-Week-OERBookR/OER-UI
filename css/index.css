@@ -32,7 +32,7 @@ nav {
     margin: 0 auto;
   }
   nav #social {
-    background: #e84916;
+    background: transparent;
     width: 100%;
   }
   nav ul {
@@ -146,6 +146,9 @@ header a:hover {
   display: flex;
   text-align: center;
 }
+#bottom .container .fas {
+  color: #7EAFBA;
+}
 @media (max-width: 500px) {
   #bottom .container {
     flex-direction: column;
@@ -158,9 +161,10 @@ header a:hover {
 }
 #divider .container {
   background-color: #D8D1AC;
+  color: #e84916;
 }
 #media {
-  border-top: 1px dashed;
+  border-top: 5px solid #e84916;
   margin: 0 auto;
   padding-bottom: 2rem;
 }
