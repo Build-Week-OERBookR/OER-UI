@@ -3,6 +3,8 @@
 # Team Members: 
 # 
 # Dajuan Mcdonald
+# Panny Lewis
+dajuan-mcdonald
 # 
 # Ojectives:
 ## PITCH
@@ -32,3 +34,7 @@ MVP
 A link to each book will take me to a site where I can download/access the open textbook subject. Each book will have a 5 star rating system. As a user I can review each book.
 
  Stretch Goal: A link to each book will take me to a site where I can download/access the open textbook.
+#
+
+
+master
