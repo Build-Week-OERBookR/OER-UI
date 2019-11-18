@@ -213,6 +213,9 @@ header a:hover {
     flex-direction: column;
   }
 }
+#bottom .container .box {
+  padding: 10px 2px 10px 2px;
+}
 #divider {
   text-align: center;
   color: #e84916;
@@ -295,4 +298,5 @@ header a:hover {
 .contact img {
   border: 5px solid;
   width: 400px;
+  border-radius: 360px;
 }
