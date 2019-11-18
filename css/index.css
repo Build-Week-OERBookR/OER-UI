@@ -251,6 +251,15 @@ header a:hover {
   color: #10171e;
   z-index: 5;
 }
+.about .container {
+  color: #474f60;
+  font-size: 16px;
+  width: 70%;
+}
+.about .container h3 {
+  color: #7EAFBA;
+  font-family: 'Secular One', sans-serif;
+}
 .contact {
   display: flex;
   flex-wrap: wrap;
