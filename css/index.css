@@ -1,5 +1,6 @@
 html {
   background-color: #EFEFEF;
+  font-size: 82.5%;
 }
 body {
   font-family: 'Montserrat', sans-serif;
@@ -18,6 +19,17 @@ body .container button {
   font-weight: 400;
   background-color: transparent;
   padding: 6px 12px;
+  margin: 2%;
+}
+@media (max-width: 500px) {
+  body .container button {
+    width: 80%;
+  }
+}
+@media (max-width: 800px) {
+  body .container button {
+    width: 50%;
+  }
 }
 nav {
   display: flex;
@@ -139,15 +151,14 @@ header .container {
     border-bottom: 5px solid;
   }
 }
-header .highlight,
-header .current a {
+header .container .highlight {
   color: #e84916;
 }
 header a:hover {
   color: #e84916;
 }
 #showcase {
-  min-height: 400px;
+  min-height: 300px;
   background: url("../img/banter-snaps-9o8YdYGTT64-unsplash.jpg") no-repeat 0;
 }
 #showcase .container {
@@ -157,9 +168,36 @@ header a:hover {
   border-radius: 2px;
   text-align: center;
 }
+@media (max-width: 800px) {
+  #showcase .container {
+    font-size: 100%;
+  }
+}
+@media (max-width: 500px) {
+  #showcase .container {
+    font-size: 100%;
+  }
+}
 #news .container {
   color: #474f60;
   text-align: center;
+}
+#news .container form input {
+  height: 1.5rem;
+  text-align: center;
+}
+@media (max-width: 800px) {
+  #news .container form input {
+    width: 50%;
+  }
+}
+@media (max-width: 800px) {
+  #news .container form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }
 #bottom .container {
   background: #EFEFEF;
@@ -183,6 +221,7 @@ header a:hover {
 #divider .container {
   background-color: #D8D1AC;
   color: #e84916;
+  border-radius: 2px;
 }
 #media {
   border-top: 5px solid #e84916;
@@ -192,10 +231,16 @@ header a:hover {
 #media .container {
   display: flex;
   text-align: center;
+  color: #474f60;
 }
 #media .container .img {
   margin: 0 auto;
 }
 #media .container .img img {
   width: 93.33%;
+}
+@media (max-width: 500px) {
+  #media .container {
+    flex-direction: column;
+  }
 }

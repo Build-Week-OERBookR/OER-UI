@@ -24,10 +24,10 @@ header {
 
     .container {
         display: flex;
-        // border: 2px solid;
+       
         justify-content: center;
 
-        @media (max-width: 500px) {
+        @media @mobile {
            
             flex-direction: column;
            
@@ -37,16 +37,19 @@ header {
                 width: 100%;
                 border-bottom: 5px solid;
             }
-
-
-    
+            
+            
+            
         }
+        
+            .highlight {
+                color: @hover-color;
+            }
+        
+
     }
 }
 
-header .highlight, header .current a {
-    color: @hover-color;
-}
 
 header a:hover {
     color: @hover-color;
@@ -54,7 +57,7 @@ header a:hover {
 } 
 
 #showcase {
-    min-height: 400px;
+    min-height: 300px;
     background:url("../img/banter-snaps-9o8YdYGTT64-unsplash.jpg") no-repeat 0;
 
     .container {
@@ -64,7 +67,13 @@ header a:hover {
         border-radius: 2px;
         text-align: center;
         
-        
+        @media @tablet {
+            font-size: 100%;
+        }
+
+        @media @mobile {
+            font-size: 100%;
+        }
     }
 
     
@@ -74,6 +83,27 @@ header a:hover {
     .container {
         color: @font-bottom;
         text-align: center;
+
+        form {
+
+            input {
+                height: 1.5rem;
+                text-align: center;
+
+                @media @tablet {
+                    width: 50%;
+                }
+            }
+
+            
+            @media @tablet {
+                .flexcolumncenter();
+                
+            }
+
+        }
+
+        
     }
 }
 
@@ -89,7 +119,7 @@ header a:hover {
             color: @header-color;
         }
 
-        @media (max-width: 500px) {
+        @media @mobile {
             flex-direction: column;
         }
 
@@ -105,6 +135,7 @@ header a:hover {
     .container {
         background-color: @fnt-color;
         color: @hover-color;
+        border-radius: 2px;
     }
 }
 
@@ -114,10 +145,10 @@ header a:hover {
     padding-bottom: 2rem;
 
     .container {
-        // border: 5px solid;
+        
         display: flex;
-        // flex-direction: column;
         text-align: center;
+        color: @font-bottom;
 
 
         .img {
@@ -128,6 +159,10 @@ header a:hover {
     
             }
            
+        }
+
+        @media @mobile {
+            flex-direction: column;
         }
 
 

@@ -4,7 +4,7 @@
 # 
 # Dajuan Mcdonald
 # Panny Lewis
-dajuan-mcdonald
+
 # 
 # Ojectives:
 ## PITCH
@@ -35,6 +35,3 @@ A link to each book will take me to a site where I can download/access the open 
 
  Stretch Goal: A link to each book will take me to a site where I can download/access the open textbook.
 #
-
-
-master
