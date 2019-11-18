@@ -244,3 +244,8 @@ header a:hover {
     flex-direction: column;
   }
 }
+.contact .card {
+  border: 1px solid gray;
+  height: 70;
+  width: 70;
+}
