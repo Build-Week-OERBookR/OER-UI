@@ -1,0 +1,76 @@
+#social {
+    i.fab.fa-github:hover {
+        
+        color: @github-color;
+        
+        z-index: 5;
+
+    }
+}
+
+
+.contact {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: @font-bottom;
+    
+
+    i {
+        color: @background-main;
+    }
+
+    // TODO: make this code DRY
+
+    i.fab.fa-twitter:hover {
+        color: @twitter-color;
+    }
+
+    i.fab.fa-facebook:hover {
+        color: @facebook-color;
+    }
+
+    i.fab.fa-github:hover {
+        
+        color: @github-color;
+        
+        z-index: 5;
+
+    }
+
+
+    // @media @tablet {
+    //     flex-direction: column;
+    // }
+
+   .card {
+    //    border: 1px solid gray;
+       height: 70;
+       width: 70;
+       background-color: @fnt-color;
+       display: inline-block;
+       margin: 5%;
+       font-family: @font-sub;
+
+    
+   }
+
+
+   .card-id {
+
+    // styling reuse same as button 
+    // TODO: add personalized mixin for id
+    .btn();
+
+    padding: 2%;
+}
+
+
+img {
+
+    border: 5px solid;
+    width: 400px;
+    
+}
+
+}
