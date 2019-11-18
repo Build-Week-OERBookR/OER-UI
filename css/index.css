@@ -249,7 +249,6 @@ header a:hover {
 }
 #social i.fab.fa-github:hover {
   color: #10171e;
-  z-index: 5;
 }
 .about .container {
   color: #474f60;
