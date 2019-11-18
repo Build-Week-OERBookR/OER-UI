@@ -170,12 +170,12 @@ header a:hover {
 }
 @media (max-width: 800px) {
   #showcase .container {
-    font-size: 82.5%;
+    font-size: 100%;
   }
 }
 @media (max-width: 500px) {
   #showcase .container {
-    font-size: 82.5%;
+    font-size: 100%;
   }
 }
 #news .container {
