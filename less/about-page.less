@@ -3,17 +3,33 @@
         
         color: @github-color;
         
-        z-index: 5;
+       
 
     }
 }
 
+
+.about {
+    .container{
+        color: @font-bottom;
+        font-size: 16px;
+        width: 70%;
+        
+
+        h3 {
+            color: @header-color;
+            font-family: @font-header;
+        }
+    }
+    
+}
 
 .contact {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     color: @font-bottom;
+    // background-image: url("../img/benjamin-dada-EDZTb2SQ6j0-unsplash.jpg");
     
         
         .card {
@@ -24,39 +40,39 @@
             margin: 5%;
             font-family: @font-sub;
 
-                    i.fab.fa-twitter {
-                        color: @twitter-color;
-                    }
-                
-                    i.fab.fa-facebook {
-                        color: @facebook-color;
-                    }
-                    
-                    i.fab.fa-github {
-                    color: @github-color; 
-            
+                i.fab.fa-twitter {
+                    color: @twitter-color;
                 }
+            
+                i.fab.fa-facebook {
+                    color: @facebook-color;
+                }
+                
+                i.fab.fa-github {
+                color: @github-color; 
+        
+            }
             
         }
         
         
         .card-id {
 
-    // styling reuse same as button 
-    // TODO: add personalized mixin for id
-    .btn();
+        // styling reuse same as button 
+        // TODO: add personalized mixin for id
+        .btn();
 
-    padding: 2%;
-}
+        padding: 2%;
+        }
 
 
-img {
+    img {
 
     border: 5px solid;
     width: 400px;
     border-radius: 360px;
     box-shadow: 10px 10px 5px @header-color;
     
-}
+    }
 
 }
