@@ -244,11 +244,35 @@ header a:hover {
     flex-direction: column;
   }
 }
+#social i.fab.fa-github:hover {
+  color: #10171e;
+  z-index: 5;
+}
+.contact {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  color: #474f60;
+}
+.contact i {
+  color: #EFEFEF;
+}
+.contact i.fab.fa-twitter:hover {
+  color: #1da1f2;
+}
+.contact i.fab.fa-facebook:hover {
+  color: #1877f2;
+}
+.contact i.fab.fa-github:hover {
+  color: #10171e;
+  z-index: 5;
+}
 .contact .card {
-  border: 1px solid gray;
   height: 70;
   width: 70;
   background-color: #D8D1AC;
+  display: inline-block;
+  margin: 5%;
 }
 .contact .card-id {
   color: #e84916;
@@ -259,7 +283,7 @@ header a:hover {
   background-color: transparent;
   padding: 6px 12px;
   margin: 2%;
-  border: 2px solid;
+  padding: 2%;
 }
 @media (max-width: 500px) {
   .contact .card-id {

@@ -1,27 +1,67 @@
+#social {
+    i.fab.fa-github:hover {
+        
+        color: @github-color;
+        
+        z-index: 5;
+
+    }
+}
+
+
 .contact {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: @font-bottom;
+
+    i {
+        color: @background-main;
+    }
+
+    // TODO: make this code DRY
+
+    i.fab.fa-twitter:hover {
+        color: @twitter-color;
+    }
+
+    i.fab.fa-facebook:hover {
+        color: @facebook-color;
+    }
+
+    i.fab.fa-github:hover {
+        
+        color: @github-color;
+        
+        z-index: 5;
+
+    }
+
+
+    // @media @tablet {
+    //     flex-direction: column;
+    // }
 
    .card {
-       border: 1px solid gray;
+    //    border: 1px solid gray;
        height: 70;
        width: 70;
        background-color: @fnt-color;
+       display: inline-block;
+       margin: 5%;
+
+    
    }
 
+
    .card-id {
-    // color: @hover-color;
-    // opacity: 70%;
-    // font-family: @font-sub;
-    // border-radius: 5px;
-    // font-weight: 400;
-    // background-color: transparent;
-    // padding: 6px 12px;
-    // margin: 2%;
 
+    // styling reuse same as button 
+    // TODO: add personalized mixin for id
     .btn();
-    
-       border: 2px solid;
-}
 
+    padding: 2%;
+}
 
 
 img {
