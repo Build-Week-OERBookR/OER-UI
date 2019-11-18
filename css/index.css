@@ -254,19 +254,6 @@ header a:hover {
   justify-content: center;
   color: #474f60;
 }
-.contact i {
-  color: #EFEFEF;
-}
-.contact i.fab.fa-twitter:hover {
-  color: #1da1f2;
-}
-.contact i.fab.fa-facebook:hover {
-  color: #1877f2;
-}
-.contact i.fab.fa-github:hover {
-  color: #10171e;
-  z-index: 5;
-}
 .contact .card {
   height: 70;
   width: 70;
@@ -274,6 +261,15 @@ header a:hover {
   display: inline-block;
   margin: 5%;
   font-family: 'Lato', sans-serif;
+}
+.contact .card i.fab.fa-twitter {
+  color: #1da1f2;
+}
+.contact .card i.fab.fa-facebook {
+  color: #1877f2;
+}
+.contact .card i.fab.fa-github {
+  color: #10171e;
 }
 .contact .card-id {
   color: #e84916;
