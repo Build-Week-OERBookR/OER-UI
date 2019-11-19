@@ -35,7 +35,6 @@ nav {
   display: flex;
   flex-direction: column;
   width: 40%;
-  margin: 30px;
 }
 @media (max-width: 500px) {
   nav {
@@ -111,6 +110,7 @@ footer .social {
   width: 30%;
   display: flex;
   justify-content: space-evenly;
+  margin: 10px;
 }
 footer .social i.fab.fa-twitter:hover {
   color: #1da1f2;
