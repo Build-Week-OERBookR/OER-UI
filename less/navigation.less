@@ -3,8 +3,8 @@ nav {
     // mixin
     display: flex;
     flex-direction: column;
-    width: 40%;
-    margin: 30px;
+    width: 50%;
+    // margin: 30px;
 
     @media @mobile {
 
@@ -50,18 +50,15 @@ nav {
     }
 
     li {
+        .flexcontainer();
         
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
     }
 
     #social {
-        display: flex;
-        justify-content: space-evenly;
-       
-        padding-bottom: 2rem;
+        .socialmedianav();
         border-bottom: 1px solid;
+        padding-bottom: 2%;
+        width: 50%;
         
         i.fab.fa-twitter:hover {
             color: @twitter-color;
@@ -69,14 +66,6 @@ nav {
 
         i.fab.fa-facebook:hover {
             color: @facebook-color;
-        }
-
-        i.fab.fa-instagram:hover {
-            border-color: @instagram-color;
-            color: @insta-gram;
-            
-            z-index: 5;
-
         }
 
 

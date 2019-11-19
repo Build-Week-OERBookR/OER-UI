@@ -34,8 +34,7 @@ body .container button {
 nav {
   display: flex;
   flex-direction: column;
-  width: 40%;
-  margin: 30px;
+  width: 50%;
 }
 @media (max-width: 500px) {
   nav {
@@ -74,19 +73,16 @@ nav li {
 nav #social {
   display: flex;
   justify-content: space-evenly;
-  padding-bottom: 2rem;
+  align-self: center;
   border-bottom: 1px solid;
+  padding-bottom: 2%;
+  width: 50%;
 }
 nav #social i.fab.fa-twitter:hover {
   color: #1da1f2;
 }
 nav #social i.fab.fa-facebook:hover {
   color: #1877f2;
-}
-nav #social i.fab.fa-instagram:hover {
-  border-color: #b900b4;
-  color: #f50000;
-  z-index: 5;
 }
 footer {
   background-color: #7EAFBA;
@@ -108,19 +104,16 @@ footer a {
 }
 footer .social {
   align-items: center;
-  width: 30%;
+  width: 100px;
   display: flex;
   justify-content: space-evenly;
+  margin: 10px;
 }
 footer .social i.fab.fa-twitter:hover {
   color: #1da1f2;
 }
 footer .social i.fab.fa-facebook:hover {
   color: #1877f2;
-}
-footer .social i.fab.fa-instagram:hover {
-  border-color: #b900b4;
-  color: #f50000;
 }
 header {
   background-color: #7EAFBA;
@@ -240,6 +233,7 @@ header a:hover {
   margin: 0 auto;
 }
 #media .container .img img {
+  max-width: 400px;
   width: 93.33%;
 }
 @media (max-width: 500px) {
@@ -305,7 +299,7 @@ header a:hover {
 }
 .contact img {
   border: 5px solid;
-  width: 400px;
+  width: 220px;
   border-radius: 360px;
   box-shadow: 10px 10px 5px #7EAFBA;
 }
