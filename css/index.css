@@ -108,7 +108,6 @@ footer .social {
   display: flex;
   justify-content: space-evenly;
   margin: 10px;
-  border: 1px solid;
 }
 footer .social i.fab.fa-twitter:hover {
   color: #1da1f2;
