@@ -240,6 +240,7 @@ header a:hover {
   margin: 0 auto;
 }
 #media .container .img img {
+  max-width: 400px;
   width: 93.33%;
 }
 @media (max-width: 500px) {
@@ -305,7 +306,7 @@ header a:hover {
 }
 .contact img {
   border: 5px solid;
-  width: 400px;
+  width: 220px;
   border-radius: 360px;
   box-shadow: 10px 10px 5px #7EAFBA;
 }
