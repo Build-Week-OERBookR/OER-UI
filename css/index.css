@@ -74,8 +74,9 @@ nav #social {
   display: flex;
   justify-content: space-evenly;
   align-self: center;
+  border-bottom: 1px solid;
+  padding-bottom: 2%;
   width: 50%;
-  border: 1px solid;
 }
 nav #social i.fab.fa-twitter:hover {
   color: #1da1f2;
